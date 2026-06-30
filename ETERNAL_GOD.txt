@@ -1,0 +1,5 @@
+ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "g" then
+                      loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/The-Streets-Scripts/master/Truegod", true))()
+ end
+end)
